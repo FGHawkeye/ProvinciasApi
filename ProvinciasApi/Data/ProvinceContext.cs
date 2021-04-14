@@ -20,6 +20,5 @@ namespace ProvinciasApi.Data
         }
 
         public DbSet<User> User { get; set; }
-        public DbSet<LogEntry> LogEntry { get; set; }
     }
 }
